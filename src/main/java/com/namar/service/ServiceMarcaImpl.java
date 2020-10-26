@@ -14,6 +14,7 @@ public class ServiceMarcaImpl implements ServiceMarca{
 	
 	@Override
 	public void registrar(Marca marca) throws Exception {
+		
 		try {
 			daoMarca.registrar(marca);
 		}catch(Exception e) {
